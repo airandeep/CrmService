@@ -26,7 +26,7 @@ public class CrmController {
     @ResponseBody
     @RequestMapping(value = "testJsonMethod",method = RequestMethod.GET,
             produces = "application/json;charset=utf-8")
-    public ProductInfo test() {
+    public ProductInfo list() {
 
 
 
